@@ -14,7 +14,7 @@ npm text
 ## How to build (optional)
 
 Download and setup [emscripten](https://emscripten.org/docs/getting_started/downloads.html#installation-instructions). We shall use emcc to build this repo.
-C files (source) can be found under javascript/source folder. emcc will generate new js/wasm files under javascript folder.
+C files (source) can be found under javascript/source folder, emcc will generate new js/wasm files under javascript folder.
 
 ```
 clone this repo into your local
