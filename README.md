@@ -8,7 +8,7 @@ This is a javascript wrapper on [liboqs C library](https://github.com/open-quant
 clone this repo into your local
 cd <cloned repo>
 npm install
-npm text
+npm test
 ```
 
 ## How to build (optional)
