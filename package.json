@@ -1,0 +1,15 @@
+{
+  "name": "liboqs-javascript",
+  "version": "1.0.0",
+  "description": "liboqs javascript wrapper",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Palash Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-files": "^1.4.0",
+    "mocha": "^7.2.0"
+  }
+}
