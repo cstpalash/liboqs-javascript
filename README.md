@@ -27,6 +27,6 @@ emcc -Ibuild/include -Wall -s TOTAL_MEMORY=22216704 -s NODERAWFS=1 -Lbuild/lib j
 //build encaps
 emcc -Ibuild/include -Wall -s TOTAL_MEMORY=22216704 -s NODERAWFS=1 -Lbuild/lib javascript/source/encaps.c build/lib/liboqs.a -o javascript/encaps.js -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall","cwrap"]' -s ALLOW_MEMORY_GROWTH=1
 
-//build encaps
+//build decaps
 emcc -Ibuild/include -Wall -s TOTAL_MEMORY=22216704 -s NODERAWFS=1 -Lbuild/lib javascript/source/decaps.c build/lib/liboqs.a -o javascript/decaps.js -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall","cwrap"]' -s ALLOW_MEMORY_GROWTH=1
 ```
