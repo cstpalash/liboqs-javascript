@@ -1,6 +1,8 @@
 # liboqs-javascript
 
-This is a javascript wrapper on [liboqs C library](https://github.com/open-quantum-safe/liboqs)
+### This works in linux and mac, not in windows
+
+This is a javascript wrapper on [liboqs C library](https://github.com/open-quantum-safe/liboqs). This generates files (shared) in root directory.
 
 ## How to test
 
