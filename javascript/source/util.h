@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 bool writeFile(const uint8_t *mem, size_t len, const char *fname){
-	FILE *fp = fopen(fname, "w+");
+	FILE *fp = fopen(fname, "wb");
 
 	if(fp == NULL){
 		perror(fname);
@@ -19,7 +19,7 @@ bool writeFile(const uint8_t *mem, size_t len, const char *fname){
 }
 
 bool readFile(uint8_t *mem, size_t len, const char *fname){
-	FILE *fp = fopen(fname, "r+");
+	FILE *fp = fopen(fname, "rb");
 
 	if(fp == NULL){
 		perror(fname);
